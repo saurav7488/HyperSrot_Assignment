@@ -1,0 +1,16 @@
+.App {
+  background: linear-gradient(
+    90deg,
+    rgb(244, 219, 249) 0%,
+    rgb(223, 219, 252) 100%
+  );
+  background-color: #ffffff;
+  min-height: 100vh;
+
+  padding: 1.75%;
+}
+.container-APP{
+  padding: 1rem; 
+  border: 2px solid #ffffff; 
+  border-radius: 0.5rem; 
+}

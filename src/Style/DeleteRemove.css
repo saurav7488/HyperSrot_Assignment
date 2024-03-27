@@ -1,0 +1,234 @@
+ /* .modelBackgroundEDIT {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modealCOntainerEDIT {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: auto;
+  }
+  
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.DeleteTaskContainer {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.outerCOntainerDeleteRemove{
+    background: linear-gradient(
+        90deg,
+        rgb(244, 219, 249) 0%,
+        rgb(223, 219, 252) 100%
+      );
+      background-color: #ffffff;
+      width: 100%;
+      height: 100%;
+}
+
+.headerDeleteTask {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.ccross-header {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    position: relative;
+    right: 10px;
+}
+
+.paraheaders {
+     display: flex;
+     justify-content: center;
+}
+
+.paramain {
+    font-size: 16px;
+    position: relative;
+    bottom: 10px;
+    right: 22px;
+}
+
+.taskDeleteREmove {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.deleteRemoveTask {
+    font-size: 25px;
+}
+
+.DeleteREmoveYes,
+.DeleteRemoveNi {
+    padding: 15px 30px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+@media (max-width: 768px) {
+    .headerDeleteTask {
+        font-size: 24px;
+    }
+
+    .paramain {
+        font-size: 20px;
+    }
+
+    .deleteRemoveTask {
+        font-size: 24px;
+    }
+
+    .DeleteREmoveYes,
+    .DeleteRemoveNi {
+        padding: 12px 24px;
+        font-size: 18px;
+    }
+} 
+
+
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Modal Background */
+.modelBackgroundEDIT {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Container */
+.modealCOntainerEDIT {
+    background-color: #ffffff;
+    padding: 30px; /* Increased padding for better spacing */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    overflow: auto;
+    max-width: 80%; /* Adjust as needed */
+}
+
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Set background color */
+}
+
+/* DeleteTaskContainer styles */
+.DeleteTaskContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Added alignment */
+    padding: 20px; /* Added padding */
+}
+
+.headerDeleteTask {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.ccross-header {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    position: relative;
+    right: 0; /* Reset position */
+}
+
+.paraheaders {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    bottom: 35px;
+}
+
+.paramain {
+    font-size: 18px;
+    margin: 0;
+}
+
+.taskDeleteREmove {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.deleteRemoveTask {
+    font-size: 28px; /* Increased font size */
+}
+
+.DeleteREmoveYes,
+.DeleteRemoveNi {
+    padding: 10px 30px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px; 
+    background-color:  rgb(12, 110, 171);
+    color: #f4f4f4;
+}
+
+@media (max-width: 768px) {
+    .headerDeleteTask {
+        font-size: 20px;
+    }
+
+    .paramain {
+        font-size: 16px;
+    }
+
+    .deleteRemoveTask {
+        font-size: 22px; /* Adjusted font size */
+    }
+
+    .DeleteREmoveYes,
+    .DeleteRemoveNi {
+        padding: 12px 24px;
+        font-size: 14px; /* Adjusted font size */
+    }
+}
